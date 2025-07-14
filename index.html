@@ -1,0 +1,1649 @@
+## 📄 完整HTML代码
+ 
+### 索引.html
+ 
+```html
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>梅花易数AI——传统智慧遇见现代科技</title>
+    <meta name="description" content="梅花易数AI结合千年易经智慧与先进的人工智能技术，为您提供精准的在线卦算预测服务。">
+    <meta name="keywords" content="梅花易数,AI卦算,在线占卜,易经预测,智能算命">
+    
+    <!-- 开放图谱元标签 -->
+    <meta property="og:title" content="梅花易数AI - 传统智慧遇见现代科技">
+    <meta property="og:description" content="千年结合易经智慧与先进AI技术的专业算卦平台">
+    <元属性=“og：类型”内容=“网站”>
+    
+    <!-- 预加载字体 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <样式>
+        /* CSS样式代码在下一节 */
+    </style>
+</head>
+<主体>
+    <!-- 导航栏 -->
+    <header class="header">
+        <div class="nav-container">
+            <div class="logo">
+                <div class="logo-icon">☰</div>
+                <span>梅花易数AI</span>
+            </div>
+            <nav class="nav-menu">
+                <a href="#home" class="nav-link">首页</a>
+                <a href="#features" class="nav-link">功能</a>
+                <a href="#demo" class="nav-link">体验</a>
+                <a href="#about" class="nav-link">关于</a>
+            </导航>
+            <button class="btn-nav-cta" onclick="scrollToDemo()">立即体验</button>
+        </div>
+    </header>
+ 
+    <!-- 英雄区域 -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span>🔮</span>
+                    <span>人工智能+传统文化</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    <span>传统智慧</span>
+                    <span class="title-highlight">满足</span>
+                    <span>现代科技</span>
+                </h1>
+                
+                <p class="hero-subtitle">
+                    千年梅花易数×人工智能算法<br>
+                    为您揭示人生密码，指引前行方向
+                </p>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">10万+</div>
+                        <div class="stat-label">用户信任</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">95%</div>
+                        <div class="stat-label">准确率</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">在线服务</div>
+                    </div>
+                </div>
+                
+                <div class="hero-actions">
+                    <button class="btn-primary" onclick="scrollToDemo()">
+                        <span>✨</span>
+                        <span>立即体验</span>
+                        <span>→</span>
+                    </按钮>
+                    <button class="btn-secondary" onclick="scrollToFeatures()">
+                        <span>📖</span>
+                        <span>了解更多</span>
+                    </按钮>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="yin-yang-large">
+                    <div class="yang"></div>
+                    <div class="yin"></div>
+                </div>
+            </div>
+        </div>
+    </节>
+ 
+    <!-- 功能特色区域 -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">为什么选择梅花易数AI？</h2>
+                <p class="section-subtitle">融合传统智慧与现代科技，为您提供境外的算卦体验</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3 class="feature-title">AI智能算法</h3>
+                    <p class="feature-desc">采用先进的深度学习算法，结合传统梅花易数理论，提供更精准的预测结果，准确率高达95%。</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">📚</div>
+                    <h3 class="feature-title">传统文化传承</h3>
+                    <p class="feature-desc">严格遵循雍邵梅花易数原理，传承千年易经智慧，确保预测的权威性和文化底蕴。</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3 class="feature-title">即时在线预测</h3>
+                    <p class="feature-desc">24小时在线服务，随时随地进行占卜预测，陷入等待，即刻获得专业解卦结果。</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3 class="feature-title">隐私安全保护</h3>
+                    <p class="feature-desc">采用银行级加密技术，严格保护用户隐私，所有预测信息端到端加密，确保绝对安全。</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3 class="feature-title">多维度预测</h3>
+                    <p class="feature-desc">主题事业、感情、财运、健康、学业等多个人生领域，提供全方位的人生指导和决策支持。</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3 class="feature-title">多平台支持</h3>
+                    <p class="feature-desc">完美的车载手机、平板、电脑等多种设备，响应式设计确保在任何屏幕上都有最佳体验。</p>
+                </div>
+            </div>
+        </div>
+    </节>
+ 
+    <!-- 算卦体验区域 -->
+    <section id="demo" class="demo">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">开启您的智慧预测之旅</h2>
+                <p class="section-subtitle">输入您的问题，让AI为您解读卦象奥秘</p>
+            </div>
+            
+            <div class="demo-container">
+                <div class="demo-form">
+                    <form class="divination-form" onsubmit="handleDivination(event)">
+                        <div class="form-group">
+                            <label for="question">占卜问题</label>
+                            <文本区域
+                                id="问题"
+                                placeholder="请详细描述您想要占卜的问题，如：我的事业发展如何？情感运势怎样？投资是否有利？等等..."
+                                必需的
+                            ></文本区域>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="category">问题类别</label>
+                                <select id="category" required>
+                                    <option value="">请选择类别</option>
+                                    <option value="career">💼事业发展</option>
+                                    <option value="love">💕感情婚姻</option>
+                                    <option value="wealth">💰财运投资</option>
+                                    <option value="health">🏥健康养生</option>
+                                    <option value="study">📚学业考试</option>
+                                    <option value="other">🌟其他问题</option>
+                                </选择>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="urgency">紧急程度</label>
+                                <select id="紧急" required>
+                                    <option value="">请选择程度</option>
+                                    <option value="urgent">🔥 非常紧急</option>
+                                    <选项值=“正常”>⭐一般重要</选项>
+                                    <option value="casual">♡随便看看</option>
+                                </选择>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="btn-submit">
+                            <span>🔮</span>
+                            <span>开始算卦</span>
+                        </按钮>
+                    </form>
+                </div>
+                
+                <div class="demo-result" id="demoResult">
+                    <div class="result-placeholder">
+                        <div class="yin-yang-spinner">
+                            <div class="yang"></div>
+                            <div class="yin"></div>
+                        </div>
+                        <h4>等待您的问题</h4>
+                        <p>请填写您的问题，AI将为您进行专业的梅花易数分析</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </节>
+ 
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="logo-icon">☰</div>
+                        <span>梅花易数AI</span>
+                    </div>
+                    <p>传承千年易经智慧，融合现代AI技术，为您提供最专业的在线算卦服务。</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>产品功能</h4>
+                        <ul>
+                            <li><a href="#features">AI算卦</a></li>
+                            <li><a href="#demo">在线预测</a></li>
+                            <li><a href="#">易经知识</a></li>
+                            <li><a href="#">使用指南</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4>关于我们</h4>
+                        <ul>
+                            <li><a href="#">公司介绍</a></li>
+                            <li><a href="#">团队成员</a></li>
+                            <li><a href="#">隐私政策</a></li>
+                            <li><a href="#">服务条款</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&复制； 2024 梅花易数AI。 保留所有权利。</p>
+            </div>
+        </div>
+    </页脚>
+ 
+    <脚本>
+        /* JavaScript代码在下一节 */
+    </script>
+</body>
+</html>
+```
+ 
+---
+ 
+## 🎨 CSS 样式代码
+ 
+### 样式.css
+ 
+```css
+/* ===== CSS 变量系统 ===== */
+：根 {
+    /* 主色调 */
+    --主要：#0f1419；
+    --主要光：#1a2332；
+    --次要的：#f4d03f；
+    --辅助光：#f7dc6f；
+    --重音：#8e44ad；
+    
+    /* 中性色 */
+    --中性-50：#fafafa；
+    --中性-100：#f5f5f5；
+    --中性-200：#e5e5e5；
+    --neutral-800：#262626；
+    --neutral-900：#171717；
+    
+    /* 渐变颜色 */
+    --gradient-primary：线性渐变（135度，#0f1419 0%，#1a2332 50%，#8e44ad 100%）；
+    --gradient-secondary：线性渐变（135度，#f4d03f 0%，#f7dc6f 100%）；
+    --渐变卡：线性渐变（145度，#ffffff 0%，#f8fafc 100%）；
+    
+    /* 字体 */
+    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    
+    /* 亮度 */
+    –shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+    –shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+    –阴影lg：0 10px 15px rgba（0，0，0，0.1）；
+    –shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.1);
+}
+ 
+/* ===== 基础重置 ===== */
+* {
+    边距：0；
+    填充：0；
+    盒子尺寸：边框；
+}
+ 
+身体 {
+    字体系列：var(--font-sans);
+    行高：1.6；
+    颜色：var（--neutral-800）；
+    背景：var(--neutral-50);
+    溢出-x：隐藏；
+}
+ 
+。容器 {
+    最大宽度：1400px；
+    边距：0 自动；
+    填充：0 夹紧（1rem，5vw，3rem）；
+}
+ 
+/* ===== 导航栏样式 ===== */
+.header {
+    位置：固定；
+    顶部：0；
+    左：0；
+    右：0；
+    z索引：1000；
+    背景：rgba（255，255，255，0.95）；
+    背景滤镜：模糊（20px）；
+    底部边框：1px 实线 rgba(255, 255, 255, 0.1)；
+}
+ 
+.nav容器{
+    显示：弹性；
+    对齐内容：空间之间；
+    对齐项目：居中；
+    最大宽度：1400px；
+    边距：0 自动；
+    填充：1rem 夹（1rem，5vw，3rem）；
+}
+ 
+。标识 {
+    显示：弹性；
+    对齐项目：居中；
+    间隙：0.5rem；
+    字体大小：1.5rem；
+    字体粗细：700；
+    颜色：var（--primary）；
+}
+ 
+.logo图标{
+    宽度：40px；
+    高度：40px；
+    背景：var（--gradient-secondary）；
+    边框半径：12px；
+    显示：弹性；
+    对齐项目：居中；
+    对齐内容：居中；
+    字体大小：1.2rem；
+    动画：旋转10秒线性无限；
+}
+ 
+.导航菜单 {
+    显示：弹性；
+    间隙：2rem；
+}
+ 
+.nav-链接 {
+    文字修饰：无；
+    颜色：var（--neutral-800）；
+    字体粗细：500；
+    过渡：全部 0.3 秒缓和；
+    位置：相对；
+}
+ 
+.nav-link:悬停{
+    颜色：var（--accent）；
+}
+ 
+.nav-link::after {
+    内容： '';
+    位置：绝对；
+    底部：-5px；
+    左：0；
+    宽度：0；
+    高度：2px；
+    背景：var（--gradient-secondary）；
+    过渡：宽度0.3s 缓和；
+}
+ 
+.nav-link:hover::after {
+    宽度：100%；
+}
+ 
+.btn-nav-cta {
+    背景：var（--gradient-secondary）；
+    颜色：var（--primary）；
+    边框：无；
+    填充：0.5rem 1.5rem；
+    边框半径：25px；
+    字体粗细：600；
+    游标：指针；
+    过渡：全部 0.3 秒缓和；
+}
+ 
+.btn-nav-cta:悬停{
+    变换：平移Y（-2px）；
+    盒子阴影：var（--shadow-lg）；
+}
+ 
+/* ===== 英雄区域风格 ===== */
+.英雄{
+    最小高度：100vh；
+    位置：相对；
+    显示：弹性；
+    对齐项目：居中；
+    背景：var(--gradient-primary);
+    颜色：白色；
+    溢出：隐藏；
+}
+ 
+.英雄容器{
+    位置：相对；
+    z索引：2；
+    显示：网格；
+    网格模板列：1fr 1fr；
+    间隙：4rem；
+    对齐项目：居中；
+    最大宽度：1400px；
+    边距：0 自动；
+    填充：0 夹紧（1rem，5vw，3rem）；
+}
+ 
+.英雄徽章 {
+    显示：内联弹性；
+    对齐项目：居中；
+    间隙：0.5rem；
+    背景：rgba（255，255，255，0.1）；
+    背景滤镜：模糊（10px）；
+    填充：0.5rem 1rem；
+    边框半径：25px；
+    边框：1px实线rgba(255, 255, 255, 0.2)；
+    下边距：1.5rem；
+    字体大小：0.9rem；
+    字体粗细：500；
+}
+ 
+.英雄标题 {
+    字体大小：clamp(3rem， 8vw， 6rem)；
+    字体粗细：800；
+    行高：1.1；
+    下边距：1.5rem；
+}
+ 
+.title-highlight {
+    背景：var（--gradient-secondary）；
+    -webkit-背景剪辑：文本；
+    -webkit-文本填充颜色：透明；
+    背景剪辑：文本；
+    位置：相对；
+}
+ 
+.title-highlight::after {
+    内容： '';
+    位置：绝对；
+    底部：-10px；
+    左：0；
+    宽度：100%；
+    高度：4px；
+    背景：var（--gradient-secondary）；
+    边框半径：2px；
+}
+ 
+.英雄字幕{
+    字体大小：1.25rem；
+    颜色：rgba（255，255，255，0.8）；
+    下边距：2rem；
+    行高：1.6；
+}
+ 
+.英雄统计{
+    显示：弹性；
+    间隙：2rem；
+    下边距：2rem；
+}
+ 
+.stat-item {
+    文本对齐：居中；
+}
+ 
+.stat-number {
+    字体大小：2.5rem；
+    字体粗细：700；
+    背景：var（--gradient-secondary）；
+    -webkit-背景剪辑：文本；
+    -webkit-文本填充颜色：透明；
+    背景剪辑：文本；
+    显示：块；
+}
+ 
+.stat 标签 {
+    字体大小：0.9rem；
+    颜色：rgba（255，255，255，0.7）；
+}
+ 
+.英雄行动{
+    显示：弹性；
+    间隙：1rem；
+    弹性包裹：包裹；
+}
+ 
+.btn-主按钮 {
+    背景：var（--gradient-secondary）；
+    颜色：var（--primary）；
+    边框：无；
+    填充：1rem 2rem；
+    边框半径：50px；
+    字体大小：1.1rem；
+    字体粗细：600；
+    显示：内联弹性；
+    对齐项目：居中；
+    间隙：0.5rem；
+    游标：指针；
+    过渡：全部 0.3 秒缓和；
+    盒子阴影：0 10px 30px rgba(244, 208, 63, 0.3)；
+}
+ 
+.btn-primary：悬停{
+    变换：平移Y（-3px）；
+    盒子阴影：0 15px 40px rgba(244, 208, 63, 0.4)；
+}
+ 
+.btn-辅助按钮 {
+    背景：透明；
+    颜色：白色；
+    边框：2px 实线 rgba(255, 255, 255, 0.3)；
+    填充：1rem 2rem；
+    边框半径：50px；
+    字体大小：1.1rem；
+    字体粗细：600；
+    显示：内联弹性；
+    对齐项目：居中；
+    间隙：0.5rem；
+    游标：指针；
+    过渡：全部 0.3 秒缓和；
+    背景滤镜：模糊（10px）；
+}
+ 
+.btn-secondary：悬停{
+    背景：rgba（255，255，255，0.1）；
+    边框颜色：var（--secondary）；
+    变换：平移Y（-2px）；
+}
+ 
+/* ===== 太极图风格 ===== */
+.hero-visual {
+    显示：弹性；
+    对齐内容：居中；
+    对齐项目：居中；
+}
+ 
+.阴阳大{
+    宽度：300px；
+    高度：300px；
+    边框半径：50%；
+    位置：相对；
+    背景：线性渐变（90度，白色50%，黑色50%）；
+    动画：旋转20s线性无限；
+    盒子阴影：0 20px 40px rgba(0, 0, 0, 0.3);
+}
+ 
+.阳，.阴{
+    宽度：150px；
+    高度：150px；
+    边框半径：50%；
+    位置：绝对；
+    最高：50%；
+    变换：平移Y（-50％）；
+}
+ 
+.杨 {
+    左：0；
+    背景：白色；
+}
+ 
+.yin {
+    右：0；
+    背景：黑色；
+}
+ 
+.阳::之后，.阴::之后{
+    内容： '';
+    宽度：75px；
+    高度：75px；
+    边框半径：50%；
+    位置：绝对；
+    最高：50%；
+    左：50%；
+    变换：平移（-50%，-50%）；
+}
+ 
+.杨::之后{
+    背景：黑色；
+}
+ 
+.yin::之后{
+    背景：白色；
+}
+ 
+/* =====功能特色区域 ===== */
+。特征 {
+    填充：6rem 0；
+    背景：var(--neutral-50);
+}
+ 
+.section-header {
+    文本对齐：居中；
+    下边距：4rem；
+}
+ 
+.section-title {
+    字体大小：clamp(2rem， 5vw， 3rem)；
+    字体粗细：700；
+    颜色：var（--primary）；
+    下边距：1rem；
+}
+ 
+.section-subtitle {
+    字体大小：1.2rem；
+    颜色：var（--neutral-800）；
+    最大宽度：600px；
+    边距：0 自动；
+}
+ 
+.特征网格 {
+    显示：网格；
+    网格模板列：重复（自动适应，minmax（350px，1fr））；
+    间隙：2rem；
+}
+ 
+.功能卡 {
+    背景：var（--gradient-card）；
+    边框半径：24px；
+    填充：2rem；
+    位置：相对；
+    溢出：隐藏；
+    过渡：全部0.4s三次贝塞尔(0.4, 0, 0.2, 1)；
+    边框：1px 实线 rgba(255, 255, 255, 0.1)；
+    背景滤镜：模糊（10px）；
+}
+ 
+.功能卡::之前{
+    内容： '';
+    位置：绝对；
+    顶部：0；
+    左：0；
+    宽度：100%；
+    高度：100%；
+    背景：var(--gradient-primary);
+    不透明度：0；
+    过渡：不透明度 0.3s 缓和；
+    z索引：-1；
+}
+ 
+.功能卡：悬停{
+    变换：平移Y（-10px）缩放（1.02）；
+    盒子阴影：var（--shadow-xl）；
+}
+ 
+.功能卡：悬停::之前{
+    不透明度：0.05；
+}
+ 
+.功能图标 {
+    宽度：80px；
+    高度：80px；
+    背景：var（--gradient-secondary）；
+    边框半径：20px；
+    显示：弹性；
+    对齐项目：居中；
+    对齐内容：居中；
+    字体大小：2rem；
+    下边距：1.5rem；
+}
+ 
+.feature-title {
+    字体大小：1.5rem；
+    字体粗细：600；
+    颜色：var（--primary）；
+    下边距：1rem；
+}
+ 
+.feature-desc {
+    颜色：var（--neutral-800）；
+    行高：1.7；
+}
+ 
+/* ===== 算卦区域体验 ===== */
+.演示 {
+    填充：6rem 0；
+    背景：var(--gradient-primary);
+    颜色：白色；
+}
+ 
+.demo .section-title {
+    颜色：白色；
+}
+ 
+.demo-容器 {
+    显示：网格；
+    网格模板列：1fr 1fr；
+    间隙：4rem；
+    对齐项目：开始；
+}
+ 
+.demo-form {
+    背景：rgba（255，255，255，0.1）；
+    背景滤镜：模糊（20px）；
+    填充：2rem；
+    边框半径：24px；
+    边框：1px实线rgba(255, 255, 255, 0.2)；
+}
+ 
+.form-group {
+    下边距：1.5rem；
+}
+ 
+.form-group 标签 {
+    显示：块；
+    下边距：0.5rem；
+    颜色：白色；
+    字体粗细：500；
+}
+ 
+.form-group 输入，
+.form-group 文本区域，
+.form-group 选择 {
+    宽度：100%；
+    填充：1rem；
+    边框：1px 实线 rgba(255, 255, 255, 0.3)；
+    边框半径：12px；
+    背景：rgba（255，255，255，0.1）；
+    颜色：白色；
+    字体大小：1rem；
+    过渡：全部 0.3 秒缓和；
+}
+ 
+.form-group 输入::占位符，
+.form-group 文本区域::占位符 {
+    颜色：rgba（255，255，255，0.7）；
+}
+ 
+.form-group 输入：焦点，
+.form-group 文本区域：焦点，
+.form-group 选择：焦点{
+    轮廓：无；
+    边框颜色：var（--secondary）；
+    背景：rgba（255，255，255，0.2）；
+}
+ 
+.form-group 文本区域 {
+    高度：120px；
+    调整大小：垂直；
+}
+ 
+.form-row {
+    显示：网格；
+    网格模板列：1fr 1fr；
+    间隙：1rem；
+}
+ 
+.btn-提交 {
+    宽度：100%；
+    背景：var（--gradient-secondary）；
+    颜色：var（--primary）；
+    边框：无；
+    填充：1rem 1.5rem；
+    边框半径：12px；
+    字体大小：1.1rem；
+    字体粗细：600；
+    游标：指针；
+    过渡：全部 0.3 秒缓和；
+    显示：弹性；
+    对齐项目：居中；
+    对齐内容：居中；
+    间隙：0.5rem；
+}
+ 
+.btn-提交：悬停{
+    变换：平移Y（-2px）；
+    盒子阴影：var（--shadow-lg）；
+}
+ 
+.demo-结果 {
+    背景：rgba（255，255，255，0.1）；
+    背景滤镜：模糊（20px）；
+    填充：2rem；
+    边框半径：24px；
+    边框：1px实线rgba(255, 255, 255, 0.2)；
+    文本对齐：居中；
+}
+ 
+.结果占位符{
+    显示：弹性；
+    弹性方向：列；
+    对齐项目：居中；
+    对齐内容：居中；
+    高度：400px；
+}
+ 
+.yin-yang-spinner {
+    宽度：80px；
+    高度：80px；
+    边框半径：50%；
+    位置：相对；
+    背景：线性渐变（90度，白色50%，黑色50%）；
+    动画：旋转3秒线性无限；
+    下边距：1.5rem；
+}
+ 
+.阴阳旋转器 .yang,
+.yin-yang-spinner .yin {
+    宽度：40px；
+    高度：40px；
+    边框半径：50%；
+    位置：绝对；
+    最高：50%；
+    变换：平移Y（-50％）；
+}
+ 
+.阴阳旋转器 .yang {
+    左：0；
+    背景：白色；
+}
+ 
+.yin-yang-spinner .yin {
+    右：0；
+    背景：黑色；
+}
+ 
+.yin-yang-spinner .yang::之后，
+.yin-yang-spinner .yin::after {
+    内容： '';
+    宽度：20px；
+    高度：20px；
+    边框半径：50%；
+    位置：绝对；
+    最高：50%；
+    左：50%；
+    变换：平移（-50%，-50%）；
+}
+ 
+.yin-yang-spinner .yang::after {
+    背景：黑色；
+}
+ 
+.yin-yang-spinner .yin::after {
+    背景：白色；
+}
+ 
+/* ===== 页脚样式 ===== */
+。页脚 {
+    背景：var(--neutral-900);
+    颜色：白色；
+    填充：4rem 0 2rem；
+}
+ 
+.页脚内容 {
+    显示：网格；
+    网格模板列：1fr 2fr；
+    间隙：4rem；
+    下边距：2rem；
+}
+ 
+.页脚品牌{
+    显示：弹性；
+    弹性方向：列；
+    间隙：1rem；
+}
+ 
+.页脚徽标{
+    显示：弹性；
+    对齐项目：居中；
+    间隙：0.5rem；
+    字体大小：1.5rem；
+    字体粗细：700；
+}
+ 
+.页脚链接{
+    显示：网格；
+    网格模板列：重复（自动适应，minmax（200px，1fr））；
+    间隙：2rem；
+}
+ 
+.页脚部分 h4 {
+    颜色：var（--secondary）；
+    下边距：1rem；
+    字体粗细：600；
+}
+ 
+.页脚部分 ul {
+    列表样式：无；
+}
+ 
+.页脚部分 ul li {
+    下边距：0.5rem；
+}
+ 
+.footer-section ul li a {
+    颜色：rgba（255，255，255，0.7）；
+    文字修饰：无；
+    过渡：颜色0.3s缓和；
+}
+ 
+.footer-section ul li a:hover {
+    颜色：var（--secondary）；
+}
+ 
+.页脚底部{
+    顶部边框：1px 实线 rgba(255, 255, 255, 0.1)；
+    顶部填充：2rem；
+    文本对齐：居中；
+    颜色：rgba（255，255，255，0.7）；
+}
+ 
+/* ===== 动画效果 ===== */
+@keyframes 旋转 {
+    来自 { transform: rotate(0deg); }
+    至 { 变换：旋转（360度）； }
+}
+ 
+@keyframes 浮动{
+    0%，100% { 变换：translateY(0px); }
+    50% { 变换：translateY(-20px); }
+}
+ 
+/* =====响应式设计===== */
+@media（最大宽度：1024px）{
+    .英雄容器{
+        网格模板列：1fr；
+        文本对齐：居中；
+        间隙：3rem；
+    }
+    
+    .demo-容器 {
+        网格模板列：1fr；
+        间隙：2rem；
+    }
+    
+    .页脚内容 {
+        网格模板列：1fr；
+        间隙：2rem；
+    }
+}
+ 
+@media（最大宽度：768px）{
+    .导航菜单 {
+        显示：无；
+    }
+    
+    .英雄统计{
+        弹性方向：列；
+        间隙：1rem；
+    }
+    
+    .英雄行动{
+        弹性方向：列；
+        宽度：100%；
+    }
+    
+    .btn-主按钮，
+    .btn-辅助按钮 {
+        宽度：100%；
+        对齐内容：居中；
+    }
+    
+    .特征网格 {
+        网格模板列：1fr；
+    }
+    
+    .form-row {
+        网格模板列：1fr；
+    }
+    
+    .阴阳大{
+        宽度：200px；
+        高度：200px；
+    }
+    
+    .阳，.阴{
+        宽度：100px；
+        高度：100px；
+    }
+    
+    .阳::之后，.阴::之后{
+        宽度：50px；
+        高度：50px；
+    }
+}
+ 
+/* =====性能优化===== */
+.gpu加速{
+    变换：translateZ（0）；
+    将会改变：转变；
+}
+ 
+/* ===== 可访问性 ===== */
+@media（首选减少运动：减少）{
+    * {
+        动画持续时间：0.01ms！重要；
+        动画迭代计数：1！重要；
+        过渡持续时间：0.01ms！重要；
+    }
+}
+ 
+/* ===== 高传输模式 ===== */
+@media（首选对比度：高）{
+    ：根 {
+        --主要：#000000；
+        --次要的：#ffff00；
+        --中性-800：#000000；
+        --中性-50：#ffffff；
+    }
+}
+```
+ 
+---
+ 
+## ⚡ JavaScript代码
+ 
+### script.js
+ 
+```javascript
+// =====梅花易数AI网站交互功能=====
+ 
+梅花AI类{
+    构造函数（）{
+        这个.初始化（）；
+    }
+ 
+    初始化() {
+        这个.setupScrollEffects（）;
+        这个.setupFormHandling（）;
+        这个.setupCounterAnimation（）;
+        console.log('梅花易数AI网站已初始化完成');
+    }
+ 
+    // 平滑滚动功能
+    设置滚动效果（）{
+        // 平滑滚动到指定区域
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            锚点.addEventListener('点击', (e) => {
+                防止默认设置（）；
+                const target = document.querySelector(anchor.getAttribute('href'));
+                如果（目标）{
+                    目标.scrollIntoView({
+                        行为：'平滑'，
+                        块：“开始”
+                    });
+                }
+            });
+        });
+ 
+        // 动画滚动观察器
+        const 观察者选项 = {
+            阈值：0.1，
+            rootMargin: '0px 0px -50px 0px'
+        };
+ 
+        const 观察者 = new IntersectionObserver((entries) => {
+            条目.forEach（条目 => {
+                如果（entry.isIntersecting）{
+                    入口.目标.样式.不透明度 = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }，观察者选项);
+ 
+        // 观察需要动画的元素
+        document.querySelectorAll('.feature-card').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = '全部 0.6s 缓和';
+            观察者.观察（el）；
+        });
+    }
+ 
+    // 表单处理
+    设置表单处理() {
+        const form = document.querySelector('.divination-form');
+        如果（！表格）返回；
+ 
+        form.addEventListener('提交', (e) => {
+            防止默认设置（）；
+            这个.handleDivination（）;
+        });
+ 
+        // 字符统计（如果需要）
+        const textarea = document.getElementById('问题');
+        如果（文本区域）{
+            textarea.addEventListener('输入', (e) => {
+                const count = e.target.value.length;
+                // 可以添加统计字符显示
+                如果（计数> 500）{
+                    e.target.style.borderColor = '#ef4444';
+                } 别的 {
+                    e.target.style.borderColor = 'rgba(255, 255, 255, 0.3)';
+                }
+            });
+        }
+    }
+ 
+    // 处理算卦请求
+    异步handleDivination（）{
+        const 问题 = document.getElementById('问题').值;
+        const category = document.getElementById('category').value;
+        const urgency = document.getElementById('urgency').value;
+ 
+        如果（！问题||！类别||！紧急程度）{
+            this.showMessage('请填写完整信息', '错误');
+            返回;
+        }
+ 
+        const resultContainer = document.getElementById('demoResult');
+        
+        //显示加载状态
+        这个.showLoadingState（结果容器）；
+ 
+        // 模拟AI处理时间
+        等待新的 Promise(resolve => setTimeout(resolve，3000));
+ 
+        // 生成算卦结果
+        const result = this.generateDivinationResult(问题，类别，紧急程度)；
+        this.displayResult（resultContainer，结果）；
+    }
+ 
+    //显示加载状态
+    显示加载状态（容器）{
+        容器.innerHTML = `
+            <div class="loading-state">
+                <div class="yin-yang-spinner">
+                    <div class="yang"></div>
+                    <div class="yin"></div>
+                </div>
+                <h4>AI正在为您解图...</h4>
+                <p>正在运用梅花易数原理分析您的问题</p>
+                <div class="loading-progress">
+                    <div class="progress-bar" id="progressBar"></div>
+                </div>
+            </div>
+        `；
+ 
+        // 详细条动画
+        const progressBar = document.getElementById('progressBar');
+        让进度=0；
+        const 间隔 = setInterval(() => {
+            进度+=Math.random()*30；
+            如果（进度 >= 100）{
+                进度=100；
+                清除间隔（间隔）；
+            }
+            如果（进度条）{
+                progressBar.style.width = 进度 + '%';
+            }
+        }, 300);
+ 
+        //添加细节条样式
+        const 样式 = document.createElement('样式');
+        样式.文本内容 = `
+            .加载进度 {
+                宽度：100%；
+                高度：4px；
+                背景：rgba（255,255,255,0.2）；
+                边框半径：2px；
+                上边距：1rem；
+                溢出：隐藏；
+            }
+            .进度条{
+                高度：100%；
+                背景：线性渐变（90度，#f4d03f，#f7dc6f）；
+                宽度：0%；
+                过渡：宽度0.3s 缓和；
+            }
+        `；
+        document.head.appendChild（样式）；
+    }
+ 
+    // 生成算卦结果
+    生成占卜结果（问题，类别，紧急程度）{
+        const 六角星 = [
+            { name: '干', symbol: '☰', meaning: '天行健，君子以自强不息' },
+            { name: '坤', symbol: '☷', meaning: '地势坤，君子以厚德载物' },
+            { name: '震', symbol: '☳', meaning: '雷声隆隆，动而有威' },
+            { name: '巽', symbol: '☴', meaning: '风行草偃，柔而能入' },
+            { name: '坎', symbol: '☵', meaning: '水流不息，险中求进' },
+            { name: '离', symbol: '☲', meaning: '火光明亮，文明之象' },
+            { name: '艮', 符号: '☶', meaning: '山止如山，稳重踏实' },
+            { name: '兑', symbol: '☱', meaning: '泽润万物喜悦，和谐' }
+        ]；
+ 
+        const mainHex = 六边形[Math.floor(Math.random() * 六边形.length)];
+        const changeHex = 六边形[Math.floor(Math.random() * 六边形.length)];
+ 
+        const 解释 = {
+            事业：“运事业前景看好，宜积极进取，机遇把握。贵人相助，前程似锦。建议近期主动出击，表演技巧，与同事保持良好关系。”,
+            love: '感情运势良好，有望遇到心仪之人。已有关系和谐美好。单身者可多参与社交活动，已有伴侣者宜加强沟通，珍惜当前感情。',
+            财富：'财运亨通，投资有利。正财偏皆有收益，宜把握机会。但需精细理财，避免盲目财投资，建议分散风险，合理规划财务。',
+            health: '身体健康，精神饱满。适当运动，保持良好状态。注意劳逸结合，预防胜于治疗，建议定期体检，保持良好的生活习惯。',
+            研究：“学业进步，考试顺利。勤奋努力，必有收获。建议制定合理学习计划，持之以恒，多参与讨论，拓展知识面。”,
+            other:“运势良好，诸事顺利。保持积极心态，迎接美好未来。顺其自然，水到渠成，相信自己，勇于尝试新事物。”
+        };
+ 
+        const 建议 = {
+            Career: '建议：把握当前机遇，积极主动。与同事保持良好关系，寻求合作共赢。',
+            love: '建议：珍惜当前感情，用心经营关系。单身者可主动出击，把握缘分。',
+            rich: '建议：可适当投资，但需分散风险。开源节流，合理规划财务。',
+            health: '建议：保持良好的生活习惯，养成运动。定期检查，预防疾病。',
+            研究：'建议：制定学习计划，保持学习热情。多参与讨论，拓展知识面。',
+            其他：“建议：保持积极心态，勇于尝试新事物。相信自己，迎接挑战。”
+        };
+ 
+        返回 {
+            问题，
+            主卦：mainHex，
+            改变Hexagram：改变Hex，
+            解释：interpretations[category] || interpretations.other，
+            建议：建议[类别] || 建议.其他，
+            置信度：Math.floor（Math.random（）* 20）+ 75，
+            时间戳：new Date().toLocaleString('zh-CN')
+        };
+    }
+ 
+    // 显示算卦结果
+    显示结果（容器，结果）{
+        容器.innerHTML = `
+            <div class="divination-result" style="text-align: left; animation: fadeInUp 0.6s ease;">
+                <div class="result-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(255,255,255,0.2);">
+                    <h3>🔮算卦结果</h3>
+                    <div class="confidence-score" style="background: rgba(244, 208, 63, 0.2); padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem;">
+                        准确度：${result.confidence}%
+                    </div>
+                </div>
+                
+                <div class="hexagram-display" style="display: flex; align-items: center; justify-content: space-around; margin: 2rem 0; flex-wrap: wrap; gap: 1rem;">
+                    <div class="main-hexagram" style="text-align: center; flex: 1; min-width: 120px;">
+                        <div class="hexagram-symbol" style="font-size: 3rem; margin-bottom: 1rem; color: #f4d03f;">${result.mainHexagram.symbol} </div>
+                        <h4>主卦：${result.mainHexagram.name}</h4>
+                        <p style="font-size: 0.9rem; opacity: 0.8; margin-top: 0.5rem;">${result.mainHexagram.meaning></p>
+                    </div>
+                    <div class="arrow" style="font-size: 2rem; color: #f4d03f;">→</div>
+                    <div class="change-hexagram" style="text-align: center; flex: 1; min-width: 120px;">
+                        <div class="hexagram-symbol" style="font-size: 3rem; margin-bottom: 1rem; color: #f4d03f;">${result.changeHexagram.symbol} </div>
+                        <h4>变卦：${result.changeHexagram.name}</h4>
+                        <p style="font-size: 0.9rem; opacity: 0.8; margin-top: 0.5rem;">${result.changeHexagram.meaning></p>
+                    </div>
+                </div>
+                
+                <div class="interpretation-section" style="background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 12px; margin: 2rem 0;">
+                    <h4 style="margin-bottom: 1rem;">📖卦象解读</h4>
+                    <p style="line-height: 1.6;">${result.interpretation}</p>
+                </div>
+                
+                <div class="advice-section" style="background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 12px; margin: 2rem 0;">
+                    <h4 style="margin-bottom: 1rem;">💡专业建议</h4>
+                    <p style="line-height: 1.6;">${result.advice}</p>
+                </div>
+                
+                <div class="result-meta" style="text-align: center; margin: 2rem 0; opacity: 0.7; font-size: 0.9rem;">
+                    <p>算卦时间：${result.timestamp}</p>
+                </div>
+                
+                <div class="result-actions" style="display: flex; gap: 1rem; margin-top: 2rem;">
+                    <button onclick="meihuaAI.saveResult()" style="flex: 1; background: var(--gradient-secondary); color: var(--primary); border: none; padding: 1rem; border-radius: 12px; font-weight: 600; cursor: pointer;">
+                        💾 保存结果
+                    </按钮>
+                    <button onclick="meihuaAI.newDivination()" style="flex: 1; background: transparent; color: white; border: 2px solid rgba(255,255,255,0.3); padding: 1rem; border-radius: 12px; font-weight: 600; cursor: pointer;">
+                        🔄重新算卦
+                    </按钮>
+                </div>
+            </div>
+        `；
+ 
+        //添加淡入动画样式
+        如果（！document.getElementById（'fadeInUpStyle'））{
+            const 样式 = document.createElement('样式');
+            样式.id = 'fadeInUpStyle';
+            样式.文本内容 = `
+                @keyframes淡入淡出{
+                    从 {
+                        不透明度：0；
+                        变换：平移Y（30px）；
+                    }
+                    到 {
+                        不透明度：1；
+                        变换：平移Y（0）；
+                    }
+                }
+            `；
+            document.head.appendChild（样式）；
+        }
+    }
+ 
+    // 保存结果到本地存储
+    保存结果（）{
+        const result = document.querySelector('.divination-result');
+        如果（结果）{
+            const 结果数据 = {
+                html：结果.内部HTML，
+                时间戳：new Date().toISOString()，
+                问题：document.getElementById('question').value
+            };
+            localStorage.setItem('lastDivinationResult', JSON.stringify(resultData));
+            this.showMessage('结果已保存到本地', 'success');
+        }
+    }
+ 
+    // 重新算卦
+    新占卜() {
+        document.querySelector('.divination-form').reset();
+        const resultContainer = document.getElementById('demoResult');
+        resultContainer.innerHTML = `
+            <div class="result-placeholder">
+                <div class="yin-yang-spinner">
+                    <div class="yang"></div>
+                    <div class="yin"></div>
+                </div>
+                <h4>等待您的问题</h4>
+                <p>请填写您的问题，AI将为您进行专业的梅花易数分析</p>
+            </div>
+        `；
+    }
+ 
+    // 数字计数动画
+    设置计数器动画（）{
+        const 计数器 = document.querySelectorAll('.stat-number');
+        
+        const animateCounter = (计数器) => {
+            const 文本 = 计数器.textContent;
+            const target = parseInt(text.replace(/[^\d]/g, ''));
+            如果（isNaN（目标））返回；
+            
+            常量持续时间=2000；
+            const 步骤 = 目标 / (持续时间 / 16)；
+            让电流= 0；
+ 
+            const timer = setInterval(() => {
+                当前+=步骤；
+                如果（当前> =目标）{
+                    当前=目标；
+                    清除间隔（计时器）；
+                }
+                
+                如果（文本.包括（'％'））{
+                    计数器.textContent = Math.floor(当前) + '%';
+                } else if (text.includes('万+')) {
+                    counter.textContent = Math.floor(current / 10000) + '万+';
+                }否则，如果（文本.包括（'/'））{
+                    counter.textContent = 文本； // 保持原样，如“24/7”
+                } 别的 {
+                    计数器.textContent = Math.floor(current).toLocaleString();
+                }
+            }, 16);
+        };
+ 
+        const 观察者 = new IntersectionObserver((entries) => {
+            条目.forEach（条目 => {
+                如果（entry.isIntersecting）{
+                    动画计数器（entry.target）；
+                    观察者.取消观察（entry.target）；
+                }
+            });
+        });
+ 
+        计数器.forEach(计数器 => 观察者.观察(计数器));
+    }
+ 
+    // 显示消息提示
+    显示消息（消息，类型='信息'）{
+        const messageDiv = document.createElement('div');
+        messageDiv.className = `消息message-${type}`;
+        messageDiv.textContent = 消息；
+        
+        const 颜色 = {
+            成功：'#10b981'，
+            错误：'#ef4444'，
+            信息：'#3b82f6'，
+            警告：'#f59e0b'
+        };
+        
+        messageDiv.style.cssText = `
+            位置：固定；
+            顶部：100px；
+            右：20px；
+            背景：${colors[type] || colors.info};
+            颜色：白色；
+            填充：1rem 1.5rem；
+            边框半径：8px；
+            盒子阴影：0 4px 12px rgba(0,0,0,0.15)；
+            z索引：10000；
+            变换：平移X（100％）；
+            过渡：轻松变换 0.3s；
+            最大宽度：300px；
+            字体粗细：500；
+        `；
+        
+        文档.主体.appendChild（messageDiv）；
+        
+        //动画显示
+        设置超时（（）=> {
+            messageDiv.style.transform = 'translateX(0)';
+        }, 100);
+        
+        // 隐藏自动
+        设置超时（（）=> {
+            messageDiv.style.transform = 'translateX(100%)';
+            设置超时（（）=> {
+                如果（document.body.contains（messageDiv））{
+                    删除 document.body 中的子元素（messageDiv）；
+                }
+            }, 300);
+        }, 3000);
+    }
+}
+ 
+// 全局函数
+函数 scrollToDemo() {
+    const section = document.getElementById('demo');
+    如果（部分）{
+        section.scrollIntoView（{行为：'平滑'}）;
+    }
+}
+ 
+函数 scrollToFeatures() {
+    const section = document.getElementById('features');
+    如果（部分）{
+        section.scrollIntoView（{行为：'平滑'}）;
+    }
+}
+ 
+// 初始化应用
+const meihuaAI = new MeihuaAI();
+ 
+// 页面加载完成后的初始化
+document.addEventListener('DOMContentLoaded', () => {
+    console.log('梅花易数AI网站已加载完成');
+    
+    // 可以在这里添加更多初始化代码
+    // 如：加载用户偏好设置、检查本地存储等
+});
+ 
+// 导出到全局作用域（如果需要）
+window.meihuaAI = meihuaAI;
+```
+ 
+---
+ 
+## 🚀 部署指南
+ 
+### 1.本地部署
+ 
+```bash
+#创建项目目录
+mkdir meihua-ai-网站
+cd梅花爱网站
+ 
+#创建文件
+触摸index.html
+触摸样式.css
+触摸脚本.js
+ 
+# 复制代码到对应文件
+# 然后用浏览器打开index.html
+```
+ 
+### 2. GitHub Pages 配置
+ 
+```bash
+# 初始化Git仓库
+git init
+git 添加。
+git commit -m "初始提交：梅花易数AI网站"
+ 
+# 积极到GitHub
+git remote add origin https://github.com/yourusername/meihua-ai.git
+git push -u 源主目录
+ 
+# 在GitHub仓库设置中启用页面
+# 选择 main 分支作为源
+# 获得链接：https://yourusername.github.io/meihua-ai
+```
+ 
+### 3.Netlify部署
+ 
+1.将代码上传到GitHub
+2.访问[Netlify](https://netlify.com)
+3.连接GitHub仓库
+4.自动配置并获得链接
+ 
+### 4.Vercel部署
+ 
+```bash
+# 安装 Vercel CLI
+npm i -g vercel
+ 
+# 在项目目录中运行
+韦尔塞尔
+ 
+#按照提示完成安装
+```
+ 
+---
+ 
+## 🎨 设计特色说明
+ 
+### 色彩系统
+- **主色调**：深蓝色 (#0f1419) - 代表深邃智慧
+- **辅助色**：金色 (#f4d03f) - 代表尊贵和传统
+- **强调颜色**：紫色 (#8e44ad) - 代表神秘和科技
+ 
+### 视觉元素
+- **太极图**：旋转动画，象征阴阳平衡
+- **八卦符号**：漂浮动画，构成神秘的火焰
+- **突变背景**：现代科技感
+- **毛玻璃效果**：现代化设计语言
+ 
+###交互设计
+- **悬停效果**：调整3D变换
+- **加载动画**：太极图旋转
+- **平滑滚动**：优雅的导航页面
+- **响应式布局**：车辆所有设备
+ 
+---
+ 
+## 📱 响应式设计
+ 
+### 断点设置
+- **桌面端**：1024px+
+- **平板端**：768px - 1023px
+- **手机端**：< 768px
+ 
+### 机动策略
+- **流动网格**：使用CSS Grid和Flexbox
+- **弹性字体**：使用clamp()函数
+- **自适应图片**：响应式图片处理
+- **交互优化**：移动端交互优化
+ 
+---
+ 
+## ⚡ 性能优化
+ 
+### 加载优化
+- **字体预加载**：Google Fonts预连接
+- **CSS内联**：关键样式内联
+- **图片优化**：WebP格式支持
+- **代码压缩**：环境生产压缩
+ 
+### 动画优化
+- **硬件加速**：使用transform3d
+- **减少重绘**：优化动画属性
+- **流节防抖**：事件处理优化
+- **懒加载**：图片和内容懒加载
+ 
+---
+ 
+## 🔧 自定义配置
+ 
+### 修改颜色主题
+ 
+```css
+：根 {
+    /* 修改这些变量来改变主题色彩 */
+    --primary: #你的主要颜色；
+    --secondary: #你的次要颜色；
+    --accent: #你的口音颜色；
+}
+```
+ 
+###添加新功能配合
+ 
+```html
+<div class="feature-card">
+    <div class="feature-icon">🆕</div>
+    <h3 class="feature-title">新功能标题</h3>
+    <p class="feature-desc">功能描述内容...</p>
+</div>
+```
+ 
+### 修改算卦逻辑
+ 
+```javascript
+// 在generateDivinationResult函数中
+// 修改卦象 添加新卦象
+// 修改解释对象添加新解读
+```
+ 
+---
+ 
+## 🐛 常见问题
+ 
+### Q: 动画不流畅怎么办？
+A：检查CSS中的`will-change`属性，确保使用硬件加速。
+ 
+### Q：移动端显示异常？
+A：检查viewport设置和响应式断点。
+ 
+### 问：字体加载慢？
+A：使用预加载字体和后备字体。
+ 
+### 问：如何添加更多卦象？
+A: 在JavaScript的hexagrams缓存中添加新的卦象对象。
+ 
+---
+ 
+## 📄 许可证
+ 
+本项目采用 MIT 许可证。您可以自由使用、修改和分发代码。
+ 
+---
+ 
+## 🤝 贡献指南
+ 
+欢迎提交Issue和Pull Request来改进这个项目！
+ 
+### 贡献步骤
+1. Fork 项目
+2.创建功能分支
+3.提交更改
+4. 本体到分支
+5. 创建拉取请求
+ 
+---
+ 
+## 📞 联系方式
+ 
+如有问题或建议，请通过以下方式联系：
+ 
+- 📧 电子邮件：noname@dshop.cn
+- 🐙 GitHub：https://github.com/sunjunshi
+- 💬微信：sunjunshi7
+ 
+---
+ 
+**感谢使用梅花易数AI网站模板！** 🙏
+ 
+*传承千年智慧，拥抱现代科技*✨
